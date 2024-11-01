@@ -1,0 +1,133 @@
+/* 
+	Resets defualt browser settings
+	reset.css
+*/
+
+ol,ul { list-style:none; padding:0;}
+
+
+#container { 
+	width:996px;
+	padding:0px;
+	margin:0 auto;
+	position:relative;
+	z-index:0;
+} 
+ 
+#example {
+	width:996px;
+	height:400px;
+	position:relative;
+}
+
+#ribbon {
+	position:absolute;
+	top:-3px;
+	left:-15px;
+	z-index:500;
+}
+
+#frame {
+	position:absolute;
+	z-index:99;
+	width:1000;
+	top:0px;
+	left:-2px;
+}
+
+#slides {
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:100;
+}
+
+#slides .next,#slides .prev {
+	position:absolute;
+	top:107px;
+	left:-39px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+}
+
+.slides_container {
+	width:996px;
+	height:400px;
+	overflow:hidden;
+	position:relative;
+}
+
+#slides .next {
+	left:851px;
+}
+
+#slides .slide {
+	width:996px;
+	height:400px;
+}
+
+#slide1 { width:14px; }
+#slide2 { width:28px; }
+#slide3 { width:42px; }
+#slide4 { width:56px; }
+#slide5 { width:70px; }
+#slide6 { width:84px; }
+#slide7 { width:98px; }
+#slide8 { width:112px; }
+#slide9 { width:126px; }
+#slide10 { width:140px; }
+#slide11 { width:154px; }
+#slide12 { width:168px; }
+#slide13 { width:182px; }
+#slide14 { width:196px; }
+#slide15 { width:210px; }
+#slide16 { width:224px; }
+#slide17 { width:238px; }
+#slide18 { width:252px; }
+#slide19 { width:266px; }
+#slide20 { width:280px; }
+#slide21 { width:294px; }
+#slide22 { width:308px; }
+#slide23 { width:322px; }
+#slide24 { width:336px; }
+.pagination {
+	margin:1px auto 0px auto;
+	overflow:auto;
+	text-align:center;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../img/pagination.png);
+	background-position:0 -12px;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 0px;
+}
+
+#footer {
+	text-align:center;
+	width:580px;
+	margin-top:9px;
+	padding:4.5px 0 18px;
+	border-top:1px solid #dfdfdf;
+}
+
+#footer p {
+	margin:4.5px 0;
+	font-size:1.0em;
+}
+
